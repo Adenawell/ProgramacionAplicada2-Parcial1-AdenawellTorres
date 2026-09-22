@@ -1,0 +1,35 @@
+{
+  "name": "programacionaplicada2-parcial1-adenawelltorres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "prisma generate",
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adenawell/ProgramacionAplicada2-Parcial1-AdenawellTorres.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Adenawell/ProgramacionAplicada2-Parcial1-AdenawellTorres/issues"
+  },
+  "homepage": "https://github.com/Adenawell/ProgramacionAplicada2-Parcial1-AdenawellTorres#readme",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.10.0",
+    "@prisma/client": "^7.10.0",
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1",
+    "pg": "^8.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prisma": "^7.10.0"
+  }
+}
